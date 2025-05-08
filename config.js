@@ -1,10 +1,33 @@
-const config = {
+{
   "property": {
     "streetAddress": "11 Glen Abbey Tr",
     "city": "Vaughan",
     "cityStateZip": "Vaughan, ON L4H 4K4",
+    "listingPrice": "$3,148,800",
+    "numberOfBeds": "4+2 Beds",
+    "numberOfBaths": "6",
+    "homeType": "Freehold",
     "heroSubtitle": "Epitome of Luxury and Grandeur in the exclusive Kleinburg Area. Register to receive the complete property compendium, virtual tour, and comparables.",
-    "backgroundImageUrl": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80"
+    "backgroundImageUrl": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80",
+    "brandedMediaLink": "https://istreetrealty.ca/",
+    "propertyListingLink": "https://app.realmmlp.ca/s?active=TREB-N11969605&is_map_search=true&ne_lat=43.83479654795312&ne_lng=-79.6384699174286&offset=1&q=treb%2Favailability%3AA%257Cclass%3AFREE%257CsaleOrRent%3ASALE%257CgeoAnd%3AY&sw_lat=43.82978137717714&sw_lng=-79.64690278257142&z=17",
+    "floorPlanLink": "https://www.realtor.ca/l/bQDuo/ka",
+    "virtualTourLink": "https://www.realtor.ca/l/bQDuo/ka",
+    "marketComparablesLinks": [
+      "https://www.realtor.ca/real-estate/27976844/71-nave-street-vaughan-kleinburg-kleinburg",
+      "https://www.realtor.ca/real-estate/28231738/49-appleyard-avenue-vaughan-kleinburg-kleinburg",
+      "https://www.realtor.ca/real-estate/27785830/52-rolling-green-court-vaughan-kleinburg-kleinburg",
+      "https://app.realmmlp.ca/s?%24orderby=price&active=TREB-N11889978&is_map_search=true&ne_lat=43.83801356606088&ne_lng=-79.63496530607858&offset=1&q=treb%2Favailability%3AU%257Cclass%3AFREE%257CsaleOrRent%3ASALE%257CgeoAnd%3AY%257Cstatus%3ASLD%257CsaleDate%3A%253E%253D11%252F01%252F2024&sw_lat=43.82798334378021&sw_lng=-79.65183103636423&z=16",
+      "https://app.realmmlp.ca/s?%24orderby=price&active=TREB-N11245503&is_map_search=true&ne_lat=43.83801356606088&ne_lng=-79.63496530607858&offset=1&q=treb%2Favailability%3AU%257Cclass%3AFREE%257CsaleOrRent%3ASALE%257CgeoAnd%3AY%257Cstatus%3ASLD%257CsaleDate%3A%253E%253D11%252F01%252F2024&sw_lat=43.82798334378021&sw_lng=-79.65183103636423&z=16",
+      "https://app.realmmlp.ca/s?%24orderby=price&active=TREB-N9387032&is_map_search=true&ne_lat=43.83801356606088&ne_lng=-79.63496530607858&offset=1&q=treb%2Favailability%3AU%257Cclass%3AFREE%257CsaleOrRent%3ASALE%257CgeoAnd%3AY%257Cstatus%3ASLD%257CsaleDate%3A%253E%253D11%252F01%252F2024&sw_lat=43.82798334378021&sw_lng=-79.65183103636423&z=16"
+    ],
+    "featureStatement": "Epitome of Luxury and Grandeur",
+    "keyBenefits": [
+      "Completely finished Luxurious turn-key home including Finished Basement with kitchen and 2 extra bedrooms and Full Landscaping with pool and cabana with outdoor bathroom",
+      "New high-end finishes including Full Kitchen, Herringbone flooring, Appliances (SubZero 72\"  Side-by-side Fridge/Freezer, Wolf 48 Stove, Bosh DW), Quartz countertop, 2 new furnaces and Air Conditioner, and Full Interlock driveway",
+      "3-Car garage, 10 foot ceilings on main, and 9 foot ceilings in basement and 2nd floor"
+    ],
+    "neighbourhoodInfo": "Exclusive Kleinburg Area home surrounded by Luxury homes, schools, parks, and nature."
   },
   "realtor": {
     "fullName": "iStreet Realty Group",
@@ -26,39 +49,16 @@ const config = {
   },
   "openHouse": {
     "bundleItems": [
-      {
-        "icon": "fas fa-ruler-combined",
-        "text": "Architectural Floor Plan: "
-      },
-      {
-        "icon": "fas fa-star",
-        "text": "Benefit: Completely finished Luxurious turn-key home with finished basement, pool, cabana/bathroom, landscaping"
-      },
-      {
-        "icon": "fas fa-check-circle",
-        "text": "Benefit: New High-End Finishes: Kitchen, Herringbone flooring, SubZero/Wolf/Bosh appliances, 2 new furnaces & AC, interlock driveway"
-      },
-      {
-        "icon": "fas fa-car",
-        "text": "3-Car Garage, 10 ft main ceilings, 9 ft 2nd/basement"
-      },
-      {
-        "icon": "fas fa-camera-retro",
-        "text": "High-Resolution Photo Album and Virtual Tour"
-      },
-      {
-        "icon": "fas fa-film",
-        "text": "Cinematic Property Tour Video"
-      },
-      {
-        "icon": "fas fa-map-location-dot",
-        "text": "Kleinburg Neighbourhood Insights & Recent Sales"
-      },
-      {
-        "icon": "fas fa-key",
-        "text": "Early Access Notifications for New Kleinburg Listings"
-      }
-    ]
+      { "icon": "fas fa-ruler-combined", "text": "Architectural Floor Plan: " },
+      { "icon": "fas fa-star", "text": "Benefit: Completely finished Luxurious turn-key home including Finished Basement, pool, cabana/bathroom, landscaping" },
+      { "icon": "fas fa-check-circle", "text": "Benefit: New High-End Finishes: Kitchen, Herringbone flooring, SubZero/Wolf/Bosh appliances, 2 new furnaces & AC, interlock driveway" },
+      { "icon": "fas fa-car", "text": "3-Car Garage, 10 ft main ceilings, 9 ft 2nd/basement" },
+      { "icon": "fas fa-camera-retro", "text": "High-Resolution Photo Album and Virtual Tour" },
+      { "icon": "fas fa-film", "text": "Cinematic Property Tour Video" },
+      { "icon": "fas fa-map-location-dot", "text": "Kleinburg Neighbourhood Insights & Recent Sales" },
+      { "icon": "fas fa-key", "text": "Early Access Notifications for New Kleinburg Listings" }
+    ],
+    "date": "2025-05-10"
   },
   "meta": {
     "pageTitlePrefix": "🏡 iStreet Open House",
@@ -68,39 +68,24 @@ const config = {
   "settings": {
     "adminWebhookUrl": "https://n8n.salesgenius.co/webhook/openhouseupdate",
     "visitorWebhookUrl": "https://n8n.salesgenius.co/webhook/openhouse",
-    "confettiColors": [
-      "#6187a7",
-      "#f0e9d6",
-      "#ffffff",
-      "#83a363",
-      "#d9ac68"
-    ]
+    "confettiColors": ["#6187a7", "#f0e9d6", "#ffffff", "#83a363", "#d9ac68"]
   },
   "modalQuestions": [
     {
       "id": "agent_status",
       "questionText": "Are you currently exploring homes with a real estate agent?",
       "options": [
-        {
-          "value": "committed",
-          "text": "Yes, I'm committed to an agent."
-        },
-        {
-          "value": "not_committed",
-          "text": "No, I'm not committed to an agent."
-        },
-        {
-          "value": "gathering_info",
-          "text": "Just gathering information at this stage."
-        }
+        { "value": "committed", "text": "Yes, I'm committed to an agent." },
+        { "value": "not_committed", "text": "No, I'm not committed to an agent." },
+        { "value": "gathering_info", "text": "Just gathering information at this stage." }
       ]
     }
   ],
   "deploymentInfo": {
-    "repoName": "openhouse",
-    "repoUrl": "https://github.com/arslvn93/openhouse",
-    "tag": "Open House 168 Abbey",
-    "netlifyUrl": "https://openhousetester.netlify.app/",
-    "netlifyId": "547dc1ef-2c83-4d08-815f-344d40fc3ca2"
+    "repoName": "Open-House-348",
+    "repoUrl": "https://github.com/arslvn93/Open-House-348",
+    "tag": "Open House 11 Glen Abbey Tr",
+    "netlifyUrl": "http://Open-House-348.netlify.app",
+    "netlifyId": "980115579"
   }
-};
+}
