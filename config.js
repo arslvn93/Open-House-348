@@ -1,6 +1,6 @@
 const config = {
   "property": {
-    "streetAddress": "1 Matyas Drive",
+    "streetAddress": "12 Emma Drive",
     "city": "Vaughan",
     "cityStateZip": "Toronto, ON L4H 4K4",
     "listingPrice": "$3,148,800",
@@ -49,10 +49,6 @@ const config = {
   },
   "openHouse": {
     "bundleItems": [
-      {
-        "icon": "fas fa-ruler-combined",
-        "text": "Architectural Floor Plan: "
-      },
       {
         "icon": "fas fa-star",
         "text": "Benefit: Completely finished Luxurious turn-key home including Finished Basement, pool, cabana/bathroom, landscaping"
