@@ -1,7 +1,7 @@
 const config = {
   "property": {
-    "streetAddress": "12 Emma Drive",
-    "city": "Vaughan",
+    "streetAddress": "12 Ryan Drive",
+    "city": "Toronto",
     "cityStateZip": "Toronto, ON L4H 4K4",
     "listingPrice": "$3,148,800",
     "numberOfBeds": "4+2 Beds",
@@ -112,6 +112,20 @@ const config = {
         {
           "value": "gathering_info",
           "text": "Just gathering information at this stage."
+        }
+      ]
+    },
+    {
+      "id": "new_question_1",
+      "questionText": "Are you a buyer",
+      "options": [
+        {
+          "value": "new_option_1_0",
+          "text": "yes"
+        },
+        {
+          "value": "new_option_1_1",
+          "text": "no"
         }
       ]
     }
